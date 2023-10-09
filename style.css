@@ -1,0 +1,502 @@
+.nav1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    margin-top: 0%;
+    padding-bottom: 0%;
+    color: white;
+    background-color: rgb(48, 48, 48);
+}
+
+
+.push{
+    margin-right: auto;
+    padding-top: 0%;
+    height: 4rem;
+}
+
+.navItem1{
+    color: white;
+    text-decoration: none;
+}
+
+.buttonHover {
+    border-color: transparent transparent red transparent;
+    font-size: larger;
+    color: red;
+}
+
+.diff{
+    height: 758px;
+}
+
+h1{
+    color: black;
+}
+
+
+.navItem4{
+    padding-right: 10px;
+    
+}
+
+.trainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+h2{
+    font-size: 80px;
+}
+
+h3{
+    font-size: 40px;
+}
+
+p{
+    font-size: 25px;
+}
+
+.trainInfo{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    gap: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: auto;
+}
+
+.faqImg{
+    height: 500px;
+    background-color: white;
+    align-self: center;
+}
+
+.faqCon{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: larger;
+    color: white;
+}
+
+.tryoutInfo{
+    height: 100vh;
+    width: 100%;
+}
+
+.tryoutBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 150px;
+    align-items: center;
+    width: 100%   
+}
+
+.tryoutTitle{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 100px;
+    color: rgb(160, 19, 19);
+}
+
+.tryoutCon{
+    display: grid;
+    align-items: center;
+    height: 400px;
+    width: 500px;
+    border: solid;
+    padding: 60px;
+    margin: 20px;
+    text-align: center;
+    color: rgb(160, 19, 19);
+}
+
+.tryoutImg{
+    height: 120px;
+}
+
+
+.aboutMe{
+    color: white;
+    
+}
+
+.aboutMeTitle{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 100px;
+}
+
+.aboutMeLogo{
+    height: 120px;
+}
+
+.aboutMeImg{
+    height: 400px;
+    box-shadow: 10px 10px 5px black;
+    margin-right: 20px;
+}
+
+.aboutMeMain{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    font-size: larger;
+    padding-left: 20px;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 50px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px red;
+    background-color: black;
+    border-radius: 5px;
+    z-index: 2;
+
+}
+
+.dropdown-content .mainDrop {
+    color: whitesmoke;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content .mainDrop:hover {
+    background-color: rgb(160, 19, 19);
+    border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content .mainDrop1:hover {
+    background-color: rgb(160, 19, 19);
+    border-radius: 5px;
+}
+
+.dropdown-content .mainDrop1 {
+    color: whitesmoke;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown1 {
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px red;
+    background-color: black;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.dropdown-content1 .mainDrop2 {
+    color: whitesmoke;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content1 .mainDrop2:hover {
+    background-color: rgb(160, 19, 19);
+    border-radius: 5px;
+}
+
+.dropdown1:hover .dropdown-content1 {
+    display: flex;
+}
+
+.mainTrainBox{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+   
+}
+
+
+.train-box{
+    display: grid;
+    height: 300px;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+#panel1{
+    display: none;
+}
+#panel2{
+    display: none;
+}
+#panel3{
+    display: none;
+}
+
+.train1-1{
+    background-image: url("./images/Untitled\ design\ \(4\).png");
+    background-size: 450px;
+}
+
+.train2-2{
+    background-image: url("./images/Untitled\ design\ \(6\).png");
+    background-size: 580px;
+}
+
+.train3-3{
+    background-image: url("./images/Untitled\ design\ \(5\).png");
+    background-size: 455px;
+}
+
+body{
+    background-image: url("./images/dark-color-soccer-football-balls-levitate-midair-background-with-light-shadow-3d-rendering-illustration.jpg");
+    background-size: 5800px;
+}
+
+@media (min-width:1800px) {
+    .tryoutCon{
+        width: 550px;
+        margin: 80px;
+    }
+
+    body{
+        background-image: url("./images/dark-color-soccer-football-balls-levitate-midair-background-with-light-shadow-3d-rendering-illustration.jpg");
+        background-size: 6000px;
+    }
+}
+
+@media (min-width:1250px) and (max-width:1350px) {
+
+    .tryoutCon{
+        width: 400px;
+        margin: 0px;
+    }
+
+    body{
+        background-image: url("./images/dark-color-soccer-football-balls-levitate-midair-background-with-light-shadow-3d-rendering-illustration.jpg");
+        background-size: 6200px;
+    }
+
+    .train-box{
+        height: 250px;
+        width: 350px;
+        padding-top: 20px;
+        border-radius: 15px;
+    }
+
+    .train1-1{
+        background-image: url("./images/Untitled\ design\ \(4\).png");
+        background-size: 400px;
+    }
+    
+    .train2-2{
+        background-image: url("./images/Untitled\ design\ \(6\).png");
+        background-size: 500px;
+    }
+    
+    .train3-3{
+        background-image: url("./images/Untitled\ design\ \(5\).png");
+        background-size: 350px;
+    }
+    
+}
+
+@media (min-width:1024px) and (max-width:1249px) {
+
+    .tryoutCon{
+        width: 400px;
+        margin: 0px;
+    }
+
+    .tryoutBox{
+        padding-left: 70px; 
+    }
+
+    .train-box{
+        height: 250px;
+        width: 300px;
+        padding-top: 20px;
+        border-radius: 15px;
+    }
+
+    .train1-1{
+        background-image: url("./images/Untitled\ design\ \(4\).png");
+        background-size: 380px;
+    }
+    
+    .train2-2{
+        background-image: url("./images/Untitled\ design\ \(6\).png");
+        background-size: 485px;
+    }
+    
+    .train3-3{
+        background-image: url("./images/Untitled\ design\ \(5\).png");
+        background-size: 350px;
+    }
+
+    .aboutMeLogo{
+        height: 80px;
+    }
+
+    h2{
+        font-size: 75px;
+    }
+    
+    h3{
+        font-size: 25px;
+    }
+    
+    p{
+        font-size: 20px;
+    }
+
+    .faqImg{
+        height: 400px;
+        background-color: white;
+        align-self: center;
+    }
+
+    .diff{
+        height: 600px;
+    }
+
+    .trainContainer{
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .trainContainer h2 {
+        font-size: 60px;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .tryoutCon{
+        width: 100%;
+        margin: 0px;
+        
+    }
+
+    .tryoutBox{
+        padding-left: 10px;
+        padding-right: 10px; 
+        gap: 50px;
+    }
+
+    .train-box{
+        height: 200px;
+        width: 245px;
+        padding-top: 20px;
+        border-radius: 15px;
+    }
+
+
+    .train1-1{
+        background-image: url("./images/Untitled\ design\ \(4\).png");
+        background-size: 300px;
+    }
+    
+    .train2-2{
+        background-image: url("./images/Untitled\ design\ \(6\).png");
+        background-size: 400px;
+    }
+    
+    .train3-3{
+        background-image: url("./images/Untitled\ design\ \(5\).png");
+        background-size: 280px;
+    }
+
+    .aboutMeLogo{
+        height: 80px;
+    }
+
+    h2{
+        font-size: 60px;
+    }
+    
+    h3{
+        font-size: 20px;
+    }
+    
+    p{
+        font-size: 18px;
+    }
+
+    .faqImg{
+        height: 300px;
+        background-color: white;
+        align-self: center;
+    }
+
+    .diff{
+        height: 550px;
+    }
+
+    .trainContainer{
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .trainContainer h2 {
+        font-size: 60px;
+    }
+
+
+    .aboutMeMain{
+        height: 400px;
+        padding-right: 0px;
+        padding-left: 10px;
+        margin-top: 0px;
+    }
+
+    .aboutMeTitle{
+        padding-top: 50px;
+        padding-bottom: 20px;
+        gap: 50px;
+    }
+
+    .aboutMeImg{
+        height: 300px;
+        box-shadow: 5px 5px 5px black;
+        margin-right: 20px;
+    }
+
+    .tryoutInfo{
+        height: 65vh;
+        width: 100%;
+    }
+}
+
+
